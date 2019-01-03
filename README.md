@@ -11,7 +11,7 @@ https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/thr
 2. Extract tar.gz to folders respectively. (Windows user may need other tool to extract tar.gz)  
 
 3. Activate environment  
-In project directory, `docker-compose up`
+In project directory, `docker-compose up`, it will take some time for the first time.
 
 4. Copy the last line output of console  
 like `http://0.0.0.0:8888/?token=b2c061a4...`, everytime the token will change, so we can't avoid this step.
