@@ -14,8 +14,11 @@ https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/thr
 3. Activate environment  
 In project directory, `docker-compose up`, it will take some time for the first time.
 
-4. Copy the last line output of console  
+4. Copy the last line output of console to browser  
 like `http://0.0.0.0:8888/?token=b2c061a4...`, everytime the token will change, so we can't avoid this step.
+
+5. fix error related to matplotlib
+`matplotlib scatter: TypeError: unhashable type: 'numpy.ndarray'` occurs when running assignments locally, not the problem of this project, see https://stackoverflow.com/questions/49840380/matplotlib-scatter-typeerror-unhashable-type-numpy-ndarray. Anyway, search code for `plot` and append `.ravel().tolist()` to Y or train_Y ..., the plot function used mostly in Course2, and less in other course.
 
 # Little Attention
 - if you change dockerfile, use `docker-compose --build` to update your change (docker will cache, so applying little change should be fast)
