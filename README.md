@@ -4,6 +4,7 @@
 
 # Step
 0. Install docker and docker-compose (if you haven't)  
+Both docker ce version and docker-compose for your os.
 
 1. Follow step B and C in this thread  
 https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/threads/29j3DW9WEeiqiRKZ5Tzn-A/replies/rQbsl29XEei0dhKA653RhA
