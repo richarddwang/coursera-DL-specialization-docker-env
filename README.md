@@ -3,14 +3,14 @@
 - docker promise you will get the same environment with only one step
 
 # Step
-0. Install docker and docker-compose (if you haven't)
+0. Install docker and docker-compose (if you haven't)  
 
-1. Follow step B and C in this thread
+1. Follow step B and C in this thread  
 https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/threads/29j3DW9WEeiqiRKZ5Tzn-A/replies/rQbsl29XEei0dhKA653RhA
 
-2. Extract tar.gz to folders respectively. (Windows user may need other tool to extract tar.gz)
+2. Extract tar.gz to folders respectively. (Windows user may need other tool to extract tar.gz)  
 
-3. Activate environment
+3. Activate environment  
 In project directory, `docker-compose up`
 
 # Little Attention
