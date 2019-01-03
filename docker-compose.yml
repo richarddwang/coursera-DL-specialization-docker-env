@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    build:
+      # onlyd used when test and build image
+      # context: .
+      # dockerfile: Dockerfile
+    volumes:
+      - ./course1/:/dl-home/course1
+      - ./course2/:/dl-home/course2
+      - ./course4/:/dl-home/course4
+      - ./course5/:/dl-home/course5
+    ports:
+      - "8888:8888"
