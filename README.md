@@ -8,7 +8,7 @@
 Both docker ce version and docker-compose for your os.
 
 1. Follow step B and C in this thread  
-https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/threads/29j3DW9WEeiqiRKZ5Tzn-A/replies/rQbsl29XEei0dhKA653RhA
+https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/threads/29j3DW9WEeiqiRKZ5Tzn-A/replies/rQbsl29XEei0dhKA653RhA, but we don't need ...-condaenv.txt, because I have had thos into one txt
 
 2. Activate environment  
 In project directory, `docker-compose up`, it will take some time for the first time.
