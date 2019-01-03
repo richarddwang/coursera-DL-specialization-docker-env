@@ -1,6 +1,7 @@
 # coursera-DL-specialization-docker-env
 - You can run locally all programming assignments of all courses in this one environment
 - docker promise you will get the same environment with only one step
+- All assignments tested (besides 3 assignments in firs two weeks of Course4, but it should work)
 
 # Step
 0. Install docker and docker-compose (if you haven't)  
