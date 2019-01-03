@@ -13,6 +13,9 @@ https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/thr
 3. Activate environment  
 In project directory, `docker-compose up`
 
+4. Copy the last line output of console  
+like `http://0.0.0.0:8888/?token=b2c061a4...`, everytime the token will change, so we can't avoid this step.
+
 # Little Attention
 - if you change dockerfile, use `docker-compose --build` to update your change (docker will cache, so applying little change should be fast)
 - packages that use conda install will install the latest, which may not be compatible with old versions, in that case, specify the version of package
