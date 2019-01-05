@@ -11,7 +11,7 @@ Both docker ce version and docker-compose for your os.
 https://www.coursera.org/learn/neural-networks-deep-learning/discussions/all/threads/29j3DW9WEeiqiRKZ5Tzn-A/replies/rQbsl29XEei0dhKA653RhA, but we don't need ...-condaenv.txt, because I have had thos into one txt
 
 2. Activate environment  
-In project directory, `docker-compose up`, it will take few hours depend on your computer for the first time.
+In project directory, `docker-compose up`, depends on your network speed it may take few hours to download the 5G image for the first time.
 
 3. Copy the last line output of console to browser  
 you can see like `http://0.0.0.0:8888/?token=b2c061a4...`, everytime the token will change, so we can't avoid this step.
