@@ -3,7 +3,7 @@
 - docker promise you will get the same environment with only one step
 - All assignments tested (besides 3 assignments in firs two weeks of Course4, but it should work)
 
-# Step
+# Steps
 **0. Install docker and docker-compose (if you haven't)**  
 Both docker ce version and docker-compose for your os.
 
